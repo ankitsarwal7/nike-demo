@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 const Navigation = () => {
     return (
       <nav className="container">
@@ -5,7 +8,7 @@ const Navigation = () => {
           <img src="/images/brand_logo.png" alt="logo" />
         </div>
         <ul>
-          <li href="#">Menu</li>
+        <li><Link to="/">Home</Link></li>
           <li href="#">Location</li>
           <li href="#">About</li>
           <li href="#">Contact</li>
